@@ -34,3 +34,9 @@ int getRandomOffset() {
     return int(random(offset_range));
 }
 
+void keyPressed() {
+    if (key=='s') {
+        save("result/tricopidou_"+hour()+"_"+minute()+"_"+second()+".png");
+    }
+}
+
