@@ -1,12 +1,12 @@
-int offset_range = 100;
+int offset_range = 600;
 
 
-int nb_images = 2;
+int nb_images = 9;
 PImage imgs[] = new PImage[nb_images];
 
 
 void settings() {
-    size(200+offset_range, 113+offset_range, P2D);    // initialize frame
+    size(600+offset_range, 234+offset_range, P2D);    // initialize frame
 }
 
 
